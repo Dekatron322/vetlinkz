@@ -22,7 +22,6 @@ const links = [
   { name: "Doctors", href: "/doctors", icon: EstatesIcon },
   { name: "Upload Cases", href: "/upload-cases", icon: HomeIcon },
   { name: "Recently Viewed", href: "/recently-viewed", icon: ChatIcon },
-  { name: "Notifications", href: "/notifications", icon: PropertyIcon },
 ]
 
 const secondlinks = [
