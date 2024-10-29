@@ -29,7 +29,7 @@ interface User {
   name: string
 }
 
-const categories = ["All Categories", "Large Animals", "Small Animals", "Wild Life", "Avian And Fish"]
+const categories = ["All Categories", "Large Animal", "Small Animal", "Wildlife", "Avian and Fish"]
 
 const Dashboard = () => {
   const router = useRouter()
@@ -143,7 +143,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="relative mt-5 flex gap-3 max-sm:hidden">
-            <div className="flex ">
+            <div className="relative flex">
               <div className="flex w-[300px] items-center gap-2 rounded-s-md border bg-white px-2">
                 <Image src="./DashboardImages/MagnifyingGlass.svg" width={20} height={20} alt="" />
 
@@ -204,7 +204,7 @@ const Dashboard = () => {
       </motion.div>
       <div className="w-full border-b"></div>
 
-      <div className="grid grid-cols-4 gap-5 px-16 py-7 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:px-3">
+      <div className="relative -z-10 grid grid-cols-4 gap-5 px-16 py-7 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:px-3">
         {filteredCases.map((item) => (
           <motion.div
             className="z-0 h-auto w-full rounded-lg bg-white"
