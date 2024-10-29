@@ -224,7 +224,7 @@ const Page: React.FC = () => {
                     className="button-primary h-[42px] w-full rounded-lg max-md:w-[340px] max-sm:h-[42px]"
                     disabled={loading}
                   >
-                    {loading ? "Logging in..." : "Proceed"}
+                    {loading ? "Logging in..." : "Sign In"}
                   </button>
                 </div>
               </form>
