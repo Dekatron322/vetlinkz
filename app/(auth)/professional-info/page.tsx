@@ -311,7 +311,7 @@ const Page: React.FC = () => {
                   disabled={loading}
                   onClick={handleUpdate}
                 >
-                  {loading ? "Signing Up..." : "Proceed"}
+                  {loading ? "Signing Up..." : "Sign Up"}
                 </button>
               </div>
               <div className="mt-6 w-full border-b border-[#0000000D] max-md:hidden"></div>

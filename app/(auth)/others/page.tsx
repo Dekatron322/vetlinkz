@@ -292,7 +292,7 @@ const Page: React.FC = () => {
                   disabled={loading}
                   onClick={handleSubmit}
                 >
-                  {loading ? "Signing In..." : "Continue"}
+                  {loading ? "Signing In..." : "Sign Up"}
                 </button>
               </div>
               <div className="mt-6 w-full border-b border-[#0000000D] max-md:hidden"></div>
