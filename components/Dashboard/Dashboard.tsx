@@ -164,7 +164,7 @@ const Dashboard = () => {
                 <Image src="./DashboardImages/FunnelSimple.svg" width={18} height={18} alt="" />
               </div>
               {isDropdownOpen && (
-                <div className="z-100 absolute left-0  top-12 w-[200px] rounded-md border bg-white shadow-md">
+                <div className="absolute left-0  top-12 w-[200px] rounded-md border bg-white shadow-md">
                   {categories.map((category, index) => (
                     <p
                       key={index}
@@ -204,7 +204,7 @@ const Dashboard = () => {
       </motion.div>
       <div className="w-full border-b"></div>
 
-      <div className="relative -z-10 grid grid-cols-4 gap-5 px-16 py-7 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:px-3">
+      <div className="relative  grid grid-cols-4 gap-5 px-16 py-7 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:px-3">
         {filteredCases.map((item) => (
           <motion.div
             className="z-0 h-auto w-full rounded-lg bg-white"
