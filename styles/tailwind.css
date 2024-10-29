@@ -174,10 +174,6 @@ body {
   @apply border-[#D4DCF1] bg-[#F3F7FE];
 }
 
-[data-theme="dark"] .dropdown {
-  @apply border border-[#D4DCF1] bg-[#242428];
-}
-
 [data-theme="dark"] .modal-dropdown {
   @apply border border-[#D4DCF1] bg-[#242428];
 }
