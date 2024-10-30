@@ -136,14 +136,14 @@ const Page: React.FC = () => {
             <div className="flex w-full justify-center md:mt-5">
               <form onSubmit={handleSubmit}>
                 <div className="relative">
-                  <label className="text-xs">Department</label>
+                  <label className="text-xs">Category</label>
                   <div className="search-bg mb-3 flex h-[50px] items-center justify-between gap-3 rounded px-3 py-1 hover:border-[#5378F6] focus:border-[#5378F6] focus:bg-[#FBFAFC] max-md:w-[340px] max-sm:mb-2  max-sm:mb-2 xl:w-[536x]">
                     <Image className="icon-style" src="/icons.svg" width={16} height={16} alt="dekalo" />
                     <Image className="dark-icon-style" src="/search-dark.svg" width={16} height={16} alt="dekalo" />
                     <input
                       type="text"
                       id="search"
-                      placeholder="Select department"
+                      placeholder="Select Category"
                       className="h-[45px] w-full bg-transparent text-xs outline-none focus:outline-none"
                       style={{ width: "100%", height: "45px" }}
                       value={searchTerm}
